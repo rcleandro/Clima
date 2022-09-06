@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2345" />
+        <entry key="app/src/main/res/drawable/bg_gradient.xml" value="0.2005" />
+        <entry key="app/src/main/res/drawable/edittext_cursor.xml" value="0.293" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.293" />
+        <entry key="app/src/main/res/drawable/ic_altitude.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_arrow_back.xml" value="0.2795" />
+        <entry key="app/src/main/res/drawable/ic_atmospheric_pressure.xml" value="0.2005" />
+        <entry key="app/src/main/res/drawable/ic_baseline_push_pin_24.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_celsius.xml" value="0.2795" />
+        <entry key="app/src/main/res/drawable/ic_clear_moon.xml" value="0.2325" />
+        <entry key="app/src/main/res/drawable/ic_clear_sunny.xml" value="0.2325" />
+        <entry key="app/src/main/res/drawable/ic_cloudy.xml" value="0.175" />
+        <entry key="app/src/main/res/drawable/ic_heavy_rain.xml" value="0.175" />
+        <entry key="app/src/main/res/drawable/ic_humidity.xml" value="0.2005" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2345" />
+        <entry key="app/src/main/res/drawable/ic_light_drizzle.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_lightning.xml" value="0.175" />
+        <entry key="app/src/main/res/drawable/ic_medium_rain.xml" value="0.2795" />
+        <entry key="app/src/main/res/drawable/ic_moon_and_cloudy.xml" value="0.2325" />
+        <entry key="app/src/main/res/drawable/ic_pin.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.2325" />
+        <entry key="app/src/main/res/drawable/ic_sun_and_cloudy.xml" value="0.2795" />
+        <entry key="app/src/main/res/drawable/ic_sunrise.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_sunset.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_thermometer_down.xml" value="0.2325" />
+        <entry key="app/src/main/res/drawable/ic_visibility.xml" value="0.2005" />
+        <entry key="app/src/main/res/drawable/ic_wind_speed.xml" value="0.1355" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/add_city_fragment.xml" value="0.3380208333333333" />
+        <entry key="app/src/main/res/layout/details_fragment.xml" value="0.3380208333333333" />
+        <entry key="app/src/main/res/layout/item_forecast.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/item_forecast_card.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/item_header.xml" value="0.2554347826086957" />
+        <entry key="app/src/main/res/layout/item_list.xml" value="0.3380208333333333" />
+        <entry key="app/src/main/res/layout/item_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_main_details.xml" value="0.24320652173913043" />
+        <entry key="app/src/main/res/layout/main_fragment.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/search_city_fragment.xml" value="0.25" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2345" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2345" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

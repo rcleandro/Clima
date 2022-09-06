@@ -1,0 +1,18 @@
+<resources>
+    <string name="google_maps_key">****</string>
+    <string name="app_name">Clima</string>
+    <string name="add_city">Alterar cidade</string>
+    <string name="search_city">Buscar da cidade</string>
+    <string name="wind_speed">Vento</string>
+    <string name="visibility">Visibilidade</string>
+    <string name="humidity">Umidade</string>
+    <string name="atmospheric_pressure">Pressão</string>
+    <string name="altitude">Altitude</string>
+    <string name="sunrise">Nascer do sol</string>
+    <string name="sunset">Pôr do sol</string>
+    <string name="city_list">Lista de cidades</string>
+    <string name="choose_location">Escolher local</string>
+    <string name="pin">Pin</string>
+    <string name="back">Voltar</string>
+    <string name="next_forecast">Próximas previsões:</string>
+</resources>
