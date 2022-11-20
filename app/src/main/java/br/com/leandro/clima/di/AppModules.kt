@@ -24,7 +24,7 @@ val viewModelModule = module {
 val uiModule = module {
     factory<MainFragment> { MainFragment() }
     factory<SearchCityFragment> { SearchCityFragment() }
-    factory<WeatherDetailsAdapter> { WeatherDetailsAdapter(get(), get()) }
+    factory<WeatherDetailsAdapter> { WeatherDetailsAdapter(get()) }
 }
 
 val repositoryModule = module {

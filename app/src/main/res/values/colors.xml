@@ -4,8 +4,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="white_translucent">#80FFFFFF</color>
     <color name="grey">#4F4F4F</color>
-    <color name="purple">#3a2f8a</color>
+    <color name="purple">#3A2F8A</color>
     <color name="dark_purple">#252357</color>
-    <color name="dark_purple_two">#1d1c45</color>
+    <color name="dark_purple_two">#1D1C45</color>
+    <color name="hint">#9FA8DA</color>
     <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">@color/white_translucent</color>
 </resources>

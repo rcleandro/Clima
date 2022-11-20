@@ -6,11 +6,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import br.com.leandro.clima.R
 import br.com.leandro.clima.data.CurrentWeather
 import br.com.leandro.clima.data.WeatherForecast
 import br.com.leandro.clima.databinding.MainFragmentBinding
@@ -35,10 +33,7 @@ class MainFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-
-        binding = DataBindingUtil
-            .inflate(inflater, R.layout.main_fragment, container, false)
-        binding.lifecycleOwner = viewLifecycleOwner
+        binding = MainFragmentBinding.inflate(layoutInflater)
 
         initListener()
         initObserver()
@@ -48,13 +43,7 @@ class MainFragment : Fragment() {
 
     override fun onResume() {
         super.onResume()
-        locationHelper = LocationHelper(requireActivity(), object : LocationHelper.Callback {
-            override fun onLocationAcquired() {
-                viewModel.update()
-                updating(true)
-            }
-        })
-        locationHelper.getLocation()
+        getLocation()
         viewModel.update()
         updating(true)
     }
@@ -78,6 +67,16 @@ class MainFragment : Fragment() {
                 setWeatherForecast(it)
             }
         }
+    }
+
+    private fun getLocation() {
+        locationHelper = LocationHelper(requireActivity(), object : LocationHelper.Callback {
+            override fun onLocationAcquired() {
+                viewModel.update()
+                updating(true)
+            }
+        })
+        locationHelper.getLocation()
     }
 
     @SuppressLint("SetTextI18n")

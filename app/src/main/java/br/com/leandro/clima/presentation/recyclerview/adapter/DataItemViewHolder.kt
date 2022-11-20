@@ -31,8 +31,6 @@ sealed class DataItemViewHolder(open val binding: ViewBinding) :
                 weatherImage(item.weather.first().description, duringTheDay, binding.image)
                 executePendingBindings()
             }
-
-
         }
 
         companion object {

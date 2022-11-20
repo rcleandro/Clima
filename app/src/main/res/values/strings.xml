@@ -15,4 +15,5 @@
     <string name="pin">Pin</string>
     <string name="back">Voltar</string>
     <string name="next_forecast">Próximas previsões:</string>
+    <string name="center_map">Centro do mapa</string>
 </resources>
